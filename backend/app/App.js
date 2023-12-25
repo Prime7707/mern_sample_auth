@@ -11,7 +11,6 @@ export default class App {
 		this.loadPlugins();
 		this.loadRoutes();
 		// this.connectMongoDB(env("MONGO_ADDRESS"), env("MONGO_PORT"), env("MONGO_DATABASE"));
-		// this.connectMongoDB(env("MONGO_ADDRESS"), env("MONGO_PORT"), env("MONGO_DATABASE"));
 		this.startServer();
 	}
 	serverinit() {
